@@ -1,0 +1,39 @@
+.main-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 250px;
+    width: 250px;
+    margin: 30 auto;
+    border: 2px solid #000
+
+}
+.box{
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 700;
+    border:2px solid #000
+}
+
+.box-hover{
+    background-color: #ff2E63   ;
+}
+
+#play-agian{
+    background-color: #ff2E63;
+    padding: 10px 25px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#play-again:hover{
+    padding: 10px 40px;
+    background-color: #08D9D6;
+    color: #000;
+    
+    
+} 
+
+
+
